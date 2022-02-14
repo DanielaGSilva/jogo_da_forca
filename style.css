@@ -1,0 +1,166 @@
+body {
+  background-image: url("img/corda.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+ }
+
+ .titulo {
+  padding: 20px;
+  width: 40vw;
+  margin: center;
+  text-align:center; 
+  margin: 50px 0px
+
+}
+:root {
+  --main-bg-color: #F3F5FC;
+  --blue-color: #0A3871;
+  --gray-color: #495057;
+}
+
+/* Página inicial */
+
+.pagina-inicial { 
+  grid-column: 2/ 3;
+  grid-row: 2;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* display: none; */
+}
+
+.btn {
+  border-radius: 24px;
+  font-size: 1rem;
+  line-height: 1.21rem;
+  font-style: normal;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.btn-play {
+  background-color: var(--blue-color);
+  border: 1px solid var(--blue-color);
+  color: #fff;
+  margin-bottom: 1.813rem;
+  height: 105px;
+  width: 317px;
+  
+}
+
+.btn-add {
+  background-color: var(--blue-color);
+  border: 1px solid var(--blue-color);
+  color: #fff;
+  height: 105px;
+  width: 317px;
+
+}
+
+/* página de adicionar palavra */
+
+.pagina-adicionar {
+  grid-column: 2/ 3;
+  grid-row: 2;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.adicionar-texto {
+  resize: none;
+  outline: none;
+  border: none;
+  height: 311px;
+  background: none;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: var(--blue-color);
+
+}
+
+.adicionar-texto::placeholder {
+  color: black;
+
+}
+
+.aviso {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.aviso p {
+  margin-left: 100px;
+  color: black;
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.btn-salvar {
+  height: 67px;
+  width: 332px;
+  background-color: var(--blue-color);
+  color: #fff;
+  border: 1px solid var(--blue-color);
+  margin:25px 50px 75px 200px ;
+}
+
+.btn-cancelar {
+  height: 67px;
+  width: 332px;
+  background-color: var(--blue-color);
+  color: #fff;
+  border: 1px solid var(--blue-color);
+  color: #fff;
+  margin:25px 50px 75px 100px ;
+}
+
+/* Página do jogo */
+
+.pagina-jogo {
+  grid-column: 2/ 3;
+  grid-row: 1; 
+}
+
+.jogo {
+  /* background-color: #cecece; */
+  height: 800px;
+  width: 1200px;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.btn-novo-jogo {
+  height: 67px;
+  width: 332px;
+  background-color: var(--blue-color);
+  color: #fff;
+  border: none;
+
+}
+
+.btn-desistir {
+  height: 67px;
+  width: 332px;
+  background-color: var(--blue-color);
+  color: #fff;
+  border: 1px solid var(--blue-color);
+  margin-left: 24px;
+
+}
+
+.hidden {
+  display: none;
+}

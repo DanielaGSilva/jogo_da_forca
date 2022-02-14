@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JOGO DA FORCA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<br>
+  <div class="pagina pagina-inicial ">
+    <h1 class="titulo">JOGO DA FORCA</h1>
+    <button class="btn btn-play">INICIAR JOGO</button>
+    <button class="btn btn-add">ADICIONAR PALAVRA</button>
+  </div>
+
+  <div class="pagina pagina-adicionar hidden">
+    <textarea class="adicionar-texto" placeholder="Digite uma palavra ou frase" maxlength="10"></textarea>
+    <div class="aviso">
+      <img src="img/avisar.png" alt="aviso"> 
+      <p>Máximo de 10 letras</p>
+    </div>
+    <div>
+      <button class="btn btn-salvar">Salvar e começar</button>
+      <button class="btn btn-cancelar">Cancelar</button>
+    </div>
+  </div>
+
+  <div class="pagina pagina-jogo hidden">
+    <canvas class="jogo"></canvas>
+    <div class="container-btn">
+      <button class="btn btn-novo-jogo">Novo Jogo</button>
+      <button class="btn btn-desistir">Desistir</button>
+    </div>
+  </div>  
+
+  <script src="forca.js"></script>
+
+  
+</body>
+</html>
